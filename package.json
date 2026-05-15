@@ -1,5 +1,30 @@
 {
   "name": "my-devops-app",
   "version": "1.0.0",
-  "description": "DevOps 35-day course app"
+  "description": "DevOps 35-day course app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyaKaviyil/devops-35days-labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PriyaKaviyil/devops-35days-labs/issues"
+  },
+  "homepage": "https://github.com/PriyaKaviyil/devops-35days-labs#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
+    "eslint": "^8.57.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.4",
+    "prettier": "^3.8.3"
+  }
 }
